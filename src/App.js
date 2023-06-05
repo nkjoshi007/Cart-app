@@ -55,6 +55,7 @@ function App() {
                     <div className="card-body bg-dark text-light" style={{ height: "250px" }}
                     >
                       <h5 className="card-title">{items.title}</h5>
+                      
                       <p className="card-text">{items.description}</p>
                       <p className="card-text text-center">Price: ₹{items.price} <span className="mx-5">Stock: {items.stock}</span></p>
                       <div className="d-flex m-2">
